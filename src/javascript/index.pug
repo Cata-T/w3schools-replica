@@ -1,8 +1,19 @@
+extends ../_component/layout/template
 
-h1 JavaScript Tutorial
-p JavaScript is the programming language of HTML and the Web.
+block cool-config
+  -
+    var myTitle = 'Learn to code Javascript for beginners';
+    var myDescription = 'Javascript is awesome, powerful, easy and fun to learn!';
+    var landingPage = 'Javascript';
+    var activeLink='';
 
-p JavaScript is easy to learn.
-
-p This tutorial will teach you JavaScript from basic to advanced.
-p #[a(href="/") Back to first page!]
+block awesome-content
+  h1=myTitle
+  p=myDescription
+  h1 JavaScript Tutorial
+  p JavaScript is the programming language of HTML and the Web.
+  h2 JavaScript Comments
+  p JavaScript is easy to learn.
+   h1 JavaScript Operators
+  p This tutorial will teach you JavaScript from basic to advanced.
+  p #[a(href="/") Back to first page!]

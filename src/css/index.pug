@@ -1,6 +1,23 @@
-h1 CSS Tutorial
-p CSS is a language that describes the style of an HTML document. CSS describes how HTML elements should be displayed. This tutorial will teach you CSS from basic to advanced.
+extends ../_component/layout/template
 
-h2 Examples in Each Chapter
-p This CSS tutorial contains hundreds of CSS examples. With our online editor, you can edit the CSS, and click on a button to view the result.
-p #[a(href="/") Back to first page!]
+block cool-config
+  -
+    var myTitle = 'Learn to code CSS for beginners';
+    var myDescription = 'CSS is awesome, powerful, easy and fun to learn!';
+    var landingPage = 'CSS';
+    var activeLink='';
+
+block awesome-content
+  h1=myTitle
+  p=myDescription
+  h2 CSS Colors
+  p Colors in CSS are most often specified by:
+  ul  
+    li a valid color name
+    li a RGB value
+    li a HEX value
+  h2 CSS Backgrounds
+  p The CSS background properties are used to define the background effects for elements
+  h2 CSS Borders
+  p The CSS border properties allow you to specify the style, width and color of an element
+  p #[a(href="/") Back to first page!]

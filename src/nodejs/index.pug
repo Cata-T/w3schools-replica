@@ -1,7 +1,11 @@
-h1 Node.js Tutorial
-p Node.js is an open source server environment.
+extends ../_component/layout/template
 
-p Node.js allows you to run JavaScript on the server.
+block cool-config
+  -    
+    var myTitle = 'Node.js';
+    var myDescription = 'This is Node.js';
+    var landingPage = 'Nodejs';
+    var activeLink='';
 
-
-p #[a(href="/") Back to first page!]
+block awesome-content
+  h2 Node.js

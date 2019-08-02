@@ -1,11 +1,4 @@
 # Pug starter
-## Table of contents
-* [YouTube video tutorials](#youtube-video-tutorials)
-* [Live projects built with pug-starter](#live-projects-built-with-pug-starter)
-* [Prerequisites](#prerequisites)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Style](#style)
 
 ## **baseUrl** 
 
